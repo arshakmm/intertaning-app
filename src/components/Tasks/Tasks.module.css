@@ -1,0 +1,248 @@
+.c {
+}
+.container {
+  position: relative;
+}
+.app {
+  position: absolute;
+  width: 191px;
+  height: 59px;
+  left: 6%;
+  top: 64px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  color: #000000;
+}
+/* .media {
+  position: absolute;
+  width: 1345px;
+  height: 544px;
+  left: 259px;
+  top: 194px;
+  border-radius: 24px;
+} */
+.butns {
+  position: absolute;
+  top: 90px;
+  width: 383px;
+  height: 29px;
+  right: 6%;
+  display: flex;
+  justify-content: right;
+  justify-content: space-between;
+}
+.btn1 {
+  border-style: none;
+  background: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #cbb1a2;
+}
+
+.btn2 {
+  border-style: none;
+  background: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #cbb1a2;
+}
+
+.btn3 {
+  border-style: none;
+  background: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #cbb1a2;
+}
+
+.hhh {
+  position: relative;
+  top: 194px;
+  margin-bottom: 60px;
+  width: 87%;
+  height: 544px;
+  left: 6%;
+  border-radius: 24px;
+}
+.img {
+  /* width: 1345px;
+  height: 544px;
+  left: 259px;
+  top: 5000px;
+  border-radius: 24px; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 544px;
+  left: 6%;
+  border-radius: 24px;
+}
+
+.ilus {
+  position: absolute;
+  width: 132px;
+  height: 29px;
+  left: 42px;
+  top: 42px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  z-index: 5;
+  color: #ffffff;
+}
+
+.lesson {
+  position: absolute;
+  width: 84px;
+  height: 20px;
+  left: 42px;
+  top: 85px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.min {
+  position: absolute;
+  width: 94px;
+  height: 29px;
+  right: 96px;
+  top: 42px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.vector {
+  position: absolute;
+  width: 84px;
+  height: 75px;
+  left: 42px;
+  top: 405px;
+}
+
+
+
+@media screen and (min-width:350px) and (max-width:741px){
+  .app {
+    position: absolute;
+    width: 208px;
+    height: 59px;
+    left: 32px;
+    top: 79px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+  }
+
+
+  .butns {
+    position: absolute;
+    top: 154px;
+    width: 297px;
+    height: 29px;
+   left: 43px;
+    display: flex;
+    justify-content: right;
+    justify-content: space-between;
+  }
+
+  .hhh {
+    position: relative;
+    top: 233px;
+    margin-bottom: 64px;
+    width: 87%;
+    height: 274px;
+    left: 21px;
+    border-radius: 24px;
+  }
+
+  .img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 274px;
+    left: 21px;
+    border-radius: 24px;
+  }
+
+
+  .ilus {
+    position: absolute;
+    width: 173px;
+    height: 15px;
+    left: 21px;
+    top: 21px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    z-index: 5;
+    color: #ffffff;
+  }
+  
+  .lesson {
+    position: absolute;
+    width: 131px;
+    height: 10px;
+    left: 21px;
+    top: 44px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  
+  .min {
+    position: absolute;
+    width: 65px;
+    height: 15px;
+    right: 42px;
+    top: 21px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+  }
+  
+
+
+  .vector {
+    position: absolute;
+    width: 84px;
+    height: 75px;
+    left: 19px;
+    top: 179px;
+  }
+}
